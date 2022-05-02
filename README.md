@@ -6,7 +6,6 @@ This distribution contains Python software for running a Deployable Low-band Ion
 3. dliteTools.py -- a Python module with functions for reading in and working with DLITE data; requires NumPy and astropy
 
 The two correlator scripts take a single argument, which is the name of a text file containing parameters it needs to run.  The format of the file must look like this example:
-
 BANDWIDTH = 100.e6/12.
 NCHAN = 512
 FREQ = 35.e6
