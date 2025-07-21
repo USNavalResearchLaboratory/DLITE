@@ -1,0 +1,17 @@
+pbest = 0                              #cleanest polarization; 0 = X; 1 = Y
+calfile = 'nameofcalfile_cal.npz' #DLITE calibration file
+zsta = 0.0			       #mean elevation of site in meters
+outdir = './'                          #output directory for FITS file
+an1 = 1	 			       #antenna number (1-4) of antenna 1
+an2 = 2				       #antenna number (1-4) of antenna 2
+tel = 'DLITE-XX'		       #name of DLITE telescope
+ANT = 'dlite-xx.ant'		       #file with lat., lon., elevation of antennas
+navg = 59			       #number if time steps per image
+nstep = 20			       #number of time steps between images
+calsour = 'Cyg A'		       #source for flux calibration
+#parameters for ionospheric scintillation analysis
+nu = 1.35      			       #irregularity spectral index
+zion = 300.			       #irregularity height in km
+A = 10.				       #irregularity major axis (unitless)
+B = 1.				       #irregularity minor axis (unitless)
+magfile = 'geo2mag_rotmat.npz' 	       #file with B-field parameters per year
